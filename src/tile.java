@@ -20,8 +20,8 @@ public class tile {
     }
 
     enum DIRECTION{
-        UP,
-        DOWN,
+        LEFT,
+        RIGHT,
         LUP,
         RUP,
         LDOWN,
@@ -53,7 +53,7 @@ public class tile {
 
     //Methods
     public boolean hasNeighbor(DIRECTION dir){
-        
+
         return false;
     }
 
