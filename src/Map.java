@@ -2,6 +2,7 @@
  * Created by Cayle J. Elsey on 3/1/14.
  */
 import java.util.LinkedList;
+
 public class Map {
     //enums
 

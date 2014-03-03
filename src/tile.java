@@ -32,6 +32,7 @@ public class tile {
     public tile(Point p){
         position.x = p.x;
         position.y = p.y;
+        coords = new TriPoint();
     }
 
     public tile(int x, int y){
@@ -48,7 +49,7 @@ public class tile {
     //Variables
     Point position;
     COLOR color;
-    Point coords;
+    TriPoint coords;
     int height;
 
     //Methods
