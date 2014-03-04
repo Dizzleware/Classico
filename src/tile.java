@@ -82,6 +82,8 @@ public class tile {
         vertices[4] = new Point(position.x + sideLength / 2, position.y - sideLength / 2);
         vertices[5] = new Point(position.x + sideLength / 2, position.y + sideLength / 2);
     }
+
+
     public void changeColor(COLOR c){
         color = c;
     }
