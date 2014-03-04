@@ -53,8 +53,22 @@ public class tile {
     int height;
 
     //Methods
-    public boolean hasNeighbor(DIRECTION dir){
+    public boolean hasNeighbor(DIRECTION dir, Map map){
 
+        switch(dir){
+            case LDOWN:
+
+            case RDOWN:
+
+            case LEFT:
+
+            case RIGHT:
+
+            case RUP:
+
+            case LUP:
+
+        }
         return false;
     }
 

@@ -2,13 +2,16 @@
  * Created by Cayle J. Elsey on 3/1/14.
  */
 import java.util.LinkedList;
-
+import java.util.Random;
 public class Map {
     //enums
 
     //Constructors
+    public Map(){
+        generateMap((int)Math.random());
+    }
     public Map(int seed){
-
+        generateMap(seed);
     }
 
     public Map(LinkedList<tile> tiles){
@@ -18,11 +21,11 @@ public class Map {
     //variables
     LinkedList<tile> tiles;
     //Methods
-    private void loadPredefinedMap(){
+    private void loadPredefinedMap(String mapName){
 
     }
 
-    public void generateMap(){
+    public void generateMap(int seed){
 
     }
 
