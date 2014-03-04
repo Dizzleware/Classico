@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee9b8861-7646-41ac-be8c-396c707bea4f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Map.java" afterPath="$PROJECT_DIR$/src/Map.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tile.java" afterPath="$PROJECT_DIR$/src/tile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Classico.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +82,7 @@
       <file leaf-file-name="tile.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="19" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.3963068" vertical-offset="792" max-vertical-offset="1496">
+            <state line="81" column="90" selection-start="2212" selection-end="2212" vertical-scroll-proportion="1.9076705" vertical-offset="0" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -102,7 +100,7 @@
       <file leaf-file-name="Map.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="5" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="935">
+            <state line="25" column="15" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1003">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -537,7 +535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="5" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="935">
+        <state line="25" column="15" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1003">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -546,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="19" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.3963068" vertical-offset="792" max-vertical-offset="1496">
+        <state line="81" column="90" selection-start="2212" selection-end="2212" vertical-scroll-proportion="1.9076705" vertical-offset="0" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>

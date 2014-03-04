@@ -1,6 +1,7 @@
 /**
  * Created by Cayle J. Elsey on 3/1/14.
  */
+import java.awt.*;
 import java.util.LinkedList;
 import java.util.Random;
 public class Map {
@@ -20,6 +21,9 @@ public class Map {
 
     //variables
     LinkedList<tile> tiles;
+    int xOffset, yOffset;
+    int tileWidth;
+    Graphics g;
     //Methods
     private void loadPredefinedMap(String mapName){
 

@@ -51,7 +51,8 @@ public class tile {
     COLOR color;
     TriPoint coords;
     int height;
-
+    int sideLength;
+    Point[] vertices = new Point[6];
     //Methods
     public boolean hasNeighbor(DIRECTION dir, Map map){
 
@@ -73,6 +74,14 @@ public class tile {
 
     }
 
+    public void SetPoints(){
+        vertices[0] = new Point(position.x, position.y + sideLength);
+        vertices[1] = new Point(position.x - sideLength/2, position.y + sideLength / 2);
+        vertices[2] = new Point(vertices[1].x, position.y + sideLength / 2);
+        vertices[3] = new Point(position.x, position.y + sideLength);
+        vertices[4] = new Point(position.x + sideLength / 2, position.y - sideLength / 2);
+        vertices[5] = new Point(position.x + sideLength / 2, position.y + sideLength / 2);
+    }
     public void changeColor(COLOR c){
         color = c;
     }
