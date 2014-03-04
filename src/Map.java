@@ -33,4 +33,19 @@ public class Map {
         //Traverse tiles linked list, and render them to the JFrame
     }
 
+    public tile searchMap(TriPoint t){
+
+        tile Tile;
+
+        for(int i = 0; i < tiles.size(); i++){
+            Tile = tiles.get(i);
+            if(t.x == Tile.coords.x){
+
+                if(t.y == Tile.coords.y){
+                    return Tile;
+                }
+            }
+        }
+        return null;
+    }
 }

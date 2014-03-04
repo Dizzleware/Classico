@@ -57,19 +57,20 @@ public class tile {
 
         switch(dir){
             case LDOWN:
-
+                if(map.searchMap(new TriPoint(coords.x, coords.y - 1, coords.z + 1)) != null){return true;}
             case RDOWN:
-
+                if(map.searchMap(new TriPoint(coords.x + 1, coords.y - 1, coords.z)) != null){return true;}
             case LEFT:
-
+                if(map.searchMap(new TriPoint(coords.x - 1, coords.y, coords.z + 1)) != null){return true;}
             case RIGHT:
-
+                if(map.searchMap(new TriPoint(coords.x + 1, coords.y, coords.z - 1)) != null){return true;}
             case RUP:
-
+                if(map.searchMap(new TriPoint(coords.x, coords.y + 1, coords.z - 1)) != null){return true;}
             case LUP:
-
+                if(map.searchMap(new TriPoint(coords.x - 1, coords.y + 1, coords.z)) != null){return true;}
         }
         return false;
+
     }
 
     public void changeColor(COLOR c){
