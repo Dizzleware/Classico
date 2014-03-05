@@ -33,17 +33,24 @@ public class tile {
         position.x = p.x;
         position.y = p.y;
         coords = new TriPoint();
+        SetPoints();
     }
 
     public tile(int x, int y){
         position.x = x;
         position.y = y;
+        SetPoints();
     }
 
     public tile(int x, int y, COLOR c){
         position.x = x;
         position.y = y;
         color = c;
+        SetPoints();
+    }
+
+    public tile(){
+
     }
 
     //Variables
@@ -53,6 +60,14 @@ public class tile {
     int height;
     int sideLength;
     Point[] vertices = new Point[6];
+
+    //Gameplay variables
+    double influenceModifier;
+    double visibilityModifier;
+    double resourceModifier;
+    double populationModifier;
+
+    int population, visibility, influence, credits;
     //Methods
     public boolean hasNeighbor(DIRECTION dir, Map map){
 
@@ -83,7 +98,18 @@ public class tile {
         vertices[5] = new Point(position.x + sideLength / 2, position.y + sideLength / 2);
     }
 
+    public void draw(Graphics2D g){
+        g.setColor(Color.BLACK);
+        for(int i = 0; i < 6; i++){
+            if(i == 0){
+                g.drawLine(vertices[0].x, vertices[0].y, vertices[1].x, vertices[1].y);
+                continue;
+            }
 
+            g.drawLine(vertices[i].x, vertices[i].y, vertices[i + 1].x, vertices[i + 1].y);
+
+        }
+    }
     public void changeColor(COLOR c){
         color = c;
     }

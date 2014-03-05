@@ -34,7 +34,7 @@ public class Map {
     }
 
 
-    public void renderMap(){
+    public void render(){
         //Traverse tiles linked list, and render them to the JFrame
     }
 

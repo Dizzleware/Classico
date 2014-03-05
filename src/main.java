@@ -7,9 +7,20 @@ import java.awt.*;
 public class main {
     public static void main(String[] args){
         //Main function, whoopdy do
-        JFrame window = new JFrame("Classico");
-        window.setVisible(true);
-        window.setSize(800,600);
+
+        SwingUtilities.invokeLater(new Runnable() {
+
+            @Override
+            public void run() {
+
+                Lines2 lines = new Lines2();
+                lines.setVisible(true);
+            }
+        });
+
+        tile genesis = new tile(100,100);
+        genesis.sideLength = 10;
+
 
 
     }
