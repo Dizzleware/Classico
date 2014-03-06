@@ -5,4 +5,9 @@ public class Player {
     public Player(){
 
     }
+
+    //Variables
+    String name;
+    int score;
+
 }

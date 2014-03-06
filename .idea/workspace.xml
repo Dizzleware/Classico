@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9b8861-7646-41ac-be8c-396c707bea4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lines2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MountainTile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PlainsTile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WaterTile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/emptyTile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Map.java" afterPath="$PROJECT_DIR$/src/Map.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/render.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lines2.java" afterPath="$PROJECT_DIR$/src/Lines2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Player.java" afterPath="$PROJECT_DIR$/src/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tile.java" afterPath="$PROJECT_DIR$/src/tile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Classico.iws" />
@@ -65,6 +61,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/Lines2.java" line="0" class="Lines2.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -77,12 +90,9 @@
       <file leaf-file-name="main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="15" column="51" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#226#407#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +101,22 @@
       <file leaf-file-name="Lines2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lines2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1190">
+            <state line="25" column="5" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1054">
               <folding>
+                <element signature="e#1061#1242#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="render.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/render.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="23" selection-start="506" selection-end="521" vertical-scroll-proportion="0.608156" vertical-offset="31" max-vertical-offset="680">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#1023#1204#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,20 +125,8 @@
       <file leaf-file-name="tile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="0" selection-start="3098" selection-end="3098" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="867">
-              <folding>
-                <element signature="class#COLOR#0;class#tile#0" expanded="false" />
-                <element signature="class#DIRECTION#0;class#tile#0" expanded="false" />
-                <element signature="method#tile#0;class#tile#0" expanded="false" />
-                <element signature="method#tile#1;class#tile#0" expanded="false" />
-                <element signature="method#tile#2;class#tile#0" expanded="false" />
-                <element signature="method#tile#3;class#tile#0" expanded="false" />
-                <element signature="method#hasNeighbor#0;class#tile#0" expanded="false" />
-                <element signature="method#SetPoints#0;class#tile#0" expanded="false" />
-                <element signature="method#draw#0;class#tile#0" expanded="false" />
-                <element signature="method#changeColor#0;class#tile#0" expanded="false" />
-                <element signature="method#changeHeight#0;class#tile#0" expanded="false" />
-              </folding>
+            <state line="121" column="0" selection-start="3098" selection-end="3098" vertical-scroll-proportion="0.0" vertical-offset="1660" max-vertical-offset="2125">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,37 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlainsTile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PlainsTile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="emptyTile.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/emptyTile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.24757281" vertical-offset="0" max-vertical-offset="412">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaterTile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WaterTile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TriPoint.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TriPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="5" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -170,7 +152,7 @@
       <file leaf-file-name="Map.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="22" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="986">
+            <state line="37" column="67" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -179,7 +161,7 @@
       <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+            <state line="11" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -199,7 +181,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/player.java" />
-        <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/TriPoint.java" />
         <option value="$PROJECT_DIR$/src/Map.java" />
         <option value="$PROJECT_DIR$/src/JFramePlusPlus.java" />
@@ -208,17 +189,20 @@
         <option value="$PROJECT_DIR$/src/StdDraw.java" />
         <option value="$PROJECT_DIR$/src/Surface.java" />
         <option value="$PROJECT_DIR$/src/JFramePaint.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
-        <option value="$PROJECT_DIR$/src/Lines2.java" />
         <option value="$PROJECT_DIR$/src/WaterTile.java" />
         <option value="$PROJECT_DIR$/src/MountainTile.java" />
         <option value="$PROJECT_DIR$/src/tile.java" />
         <option value="$PROJECT_DIR$/src/PlainsTile.java" />
         <option value="$PROJECT_DIR$/src/emptyTile.java" />
+        <option value="$PROJECT_DIR$/src/Player.java" />
+        <option value="$PROJECT_DIR$/src/Lines2.java" />
+        <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/render.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="6" />
     <option name="width" value="1600" />
     <option name="height" value="860" />
   </component>
@@ -248,7 +232,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,7 +267,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,7 +317,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Classico" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -371,19 +361,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -409,6 +386,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -494,7 +484,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="860" extended-state="0" />
+    <frame x="6" y="0" width="1600" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -503,7 +493,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19178082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -518,8 +508,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -545,12 +535,84 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="44" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lines2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1190">
+          <folding>
+            <element signature="e#1061#1242#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="3098" selection-end="3098" vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MountainTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlainsTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emptyTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WaterTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TriPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="22" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#226#407#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -558,19 +620,7 @@
     <entry file="file://$PROJECT_DIR$/src/tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="0" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1717">
-          <folding>
-            <element signature="class#COLOR#0;class#tile#0" expanded="false" />
-            <element signature="class#DIRECTION#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#1;class#tile#0" expanded="false" />
-            <element signature="method#tile#2;class#tile#0" expanded="false" />
-            <element signature="method#tile#3;class#tile#0" expanded="false" />
-            <element signature="method#hasNeighbor#0;class#tile#0" expanded="false" />
-            <element signature="method#SetPoints#0;class#tile#0" expanded="false" />
-            <element signature="method#draw#0;class#tile#0" expanded="false" />
-            <element signature="method#changeColor#0;class#tile#0" expanded="false" />
-            <element signature="method#changeHeight#0;class#tile#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -599,10 +649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#226#407#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,19 +657,7 @@
     <entry file="file://$PROJECT_DIR$/src/tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="0" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1717">
-          <folding>
-            <element signature="class#COLOR#0;class#tile#0" expanded="false" />
-            <element signature="class#DIRECTION#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#1;class#tile#0" expanded="false" />
-            <element signature="method#tile#2;class#tile#0" expanded="false" />
-            <element signature="method#tile#3;class#tile#0" expanded="false" />
-            <element signature="method#hasNeighbor#0;class#tile#0" expanded="false" />
-            <element signature="method#SetPoints#0;class#tile#0" expanded="false" />
-            <element signature="method#draw#0;class#tile#0" expanded="false" />
-            <element signature="method#changeColor#0;class#tile#0" expanded="false" />
-            <element signature="method#changeHeight#0;class#tile#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,10 +686,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#226#407#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,19 +694,7 @@
     <entry file="file://$PROJECT_DIR$/src/tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="0" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1717">
-          <folding>
-            <element signature="class#COLOR#0;class#tile#0" expanded="false" />
-            <element signature="class#DIRECTION#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#1;class#tile#0" expanded="false" />
-            <element signature="method#tile#2;class#tile#0" expanded="false" />
-            <element signature="method#tile#3;class#tile#0" expanded="false" />
-            <element signature="method#hasNeighbor#0;class#tile#0" expanded="false" />
-            <element signature="method#SetPoints#0;class#tile#0" expanded="false" />
-            <element signature="method#draw#0;class#tile#0" expanded="false" />
-            <element signature="method#changeColor#0;class#tile#0" expanded="false" />
-            <element signature="method#changeHeight#0;class#tile#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,10 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="1" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#226#407#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -714,19 +731,7 @@
     <entry file="file://$PROJECT_DIR$/src/tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="90" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1649">
-          <folding>
-            <element signature="class#COLOR#0;class#tile#0" expanded="false" />
-            <element signature="class#DIRECTION#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#1;class#tile#0" expanded="false" />
-            <element signature="method#tile#2;class#tile#0" expanded="false" />
-            <element signature="method#tile#3;class#tile#0" expanded="false" />
-            <element signature="method#hasNeighbor#0;class#tile#0" expanded="false" />
-            <element signature="method#SetPoints#0;class#tile#0" expanded="false" />
-            <element signature="method#draw#0;class#tile#0" expanded="false" />
-            <element signature="method#changeColor#0;class#tile#0" expanded="false" />
-            <element signature="method#changeHeight#0;class#tile#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,10 +760,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="5" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#226#407#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -766,19 +768,7 @@
     <entry file="file://$PROJECT_DIR$/src/tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1598">
-          <folding>
-            <element signature="class#COLOR#0;class#tile#0" expanded="false" />
-            <element signature="class#DIRECTION#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#1;class#tile#0" expanded="false" />
-            <element signature="method#tile#2;class#tile#0" expanded="false" />
-            <element signature="method#tile#3;class#tile#0" expanded="false" />
-            <element signature="method#hasNeighbor#0;class#tile#0" expanded="false" />
-            <element signature="method#SetPoints#0;class#tile#0" expanded="false" />
-            <element signature="method#draw#0;class#tile#0" expanded="false" />
-            <element signature="method#changeColor#0;class#tile#0" expanded="false" />
-            <element signature="method#changeHeight#0;class#tile#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,10 +797,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="5" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#226#407#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -818,19 +805,7 @@
     <entry file="file://$PROJECT_DIR$/src/tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="5" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1258">
-          <folding>
-            <element signature="class#COLOR#0;class#tile#0" expanded="false" />
-            <element signature="class#DIRECTION#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#1;class#tile#0" expanded="false" />
-            <element signature="method#tile#2;class#tile#0" expanded="false" />
-            <element signature="method#tile#3;class#tile#0" expanded="false" />
-            <element signature="method#hasNeighbor#0;class#tile#0" expanded="false" />
-            <element signature="method#SetPoints#0;class#tile#0" expanded="false" />
-            <element signature="method#draw#0;class#tile#0" expanded="false" />
-            <element signature="method#changeColor#0;class#tile#0" expanded="false" />
-            <element signature="method#changeHeight#0;class#tile#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -848,20 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TriPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
@@ -869,51 +830,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#226#407#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lines2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1190">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1023#1204#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="3098" selection-end="3098" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="867">
-          <folding>
-            <element signature="class#COLOR#0;class#tile#0" expanded="false" />
-            <element signature="class#DIRECTION#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#0;class#tile#0" expanded="false" />
-            <element signature="method#tile#1;class#tile#0" expanded="false" />
-            <element signature="method#tile#2;class#tile#0" expanded="false" />
-            <element signature="method#tile#3;class#tile#0" expanded="false" />
-            <element signature="method#hasNeighbor#0;class#tile#0" expanded="false" />
-            <element signature="method#SetPoints#0;class#tile#0" expanded="false" />
-            <element signature="method#draw#0;class#tile#0" expanded="false" />
-            <element signature="method#changeColor#0;class#tile#0" expanded="false" />
-            <element signature="method#changeHeight#0;class#tile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WaterTile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emptyTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.14447592" vertical-offset="0" max-vertical-offset="706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlainsTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.16855524" vertical-offset="0" max-vertical-offset="706">
           <folding />
         </state>
       </provider>
@@ -925,17 +858,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlainsTile.java">
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="11" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/emptyTile.java">
+    <entry file="file://$PROJECT_DIR$/src/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.24757281" vertical-offset="0" max-vertical-offset="412">
+        <state line="37" column="67" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="986">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="3098" selection-end="3098" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lines2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <folding>
+            <element signature="e#1061#1242#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="51" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/render.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="23" selection-start="506" selection-end="521" vertical-scroll-proportion="0.608156" vertical-offset="31" max-vertical-offset="680">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -13,7 +13,7 @@ public class main {
             @Override
             public void run() {
 
-                Lines2 lines = new Lines2();
+                render lines = new render(800,600);
                 lines.setVisible(true);
             }
         });
