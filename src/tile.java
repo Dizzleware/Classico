@@ -49,6 +49,11 @@ public class tile {
         SetPoints();
     }
 
+    public tile(TriPoint t){
+        coords = t;
+
+    }
+
     public tile(){
 
     }
